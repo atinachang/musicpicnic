@@ -254,17 +254,20 @@ body {
 
 header {
   border: 1px solid	black;
+  margin: 50px auto;
+  width: 50%;
+}
+
+.nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 50px auto;
-  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  border: 1px solid black;
 }
 
 .star {
@@ -300,4 +303,19 @@ header {
 .star:after {
   -webkit-transform: rotate(35deg);
           transform: rotate(35deg);
+}
+
+.moon {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 25px 10px 0px 0px gold;
+          box-shadow: 25px 10px 0px 0px gold;
+}
+
+.fa-sun {
+  font-size: 90px;
+  color: gold;
 }

@@ -8,9 +8,13 @@ body {
 
 header {
 	border: 1px solid	black;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 50px auto;
-	width: 70%;
+	width: 50%;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	border: 1px solid black;
 }
