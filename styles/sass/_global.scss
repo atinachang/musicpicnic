@@ -1,0 +1,16 @@
+body {
+	background-image: url(/assets/picnic_in_the_cemetery_interactive_interface.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	height: 150vh;
+}
+
+
+header {
+	border: 1px solid	black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 50px auto;
+	width: 70%;
+}
