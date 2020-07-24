@@ -20,10 +20,6 @@ img {
 	width: 50%;
 }
 
-.move {
-	position: absolute;
-}
-
 .video-frame {
 	// position: relative;
 	// // // padding-top: 25px;
@@ -32,10 +28,10 @@ img {
 	// // left: 0;
 	// // height: 100%;
 	// width: 50%;
-	// background: url(../assets/toplayer_assets/sheet_transparent.png) center
-	// 	center no-repeat;
-	// background-size: contain;
-	// z-index: 100000;
+	background: url(../assets/toplayer_assets/sheet_middleEmpty.png) center
+		center no-repeat;
+	background-size: contain;
+	z-index: 100000;
 
 	// img {
 	// 	width: 50%;
@@ -49,14 +45,14 @@ iframe {
 	// left: 0;
 	// width: 300px;
 	// height: 50%;
-	// z-index: -100000;
+	z-index: -100000;
 	// display: none;
 }
 
 iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 50%;
-	height: 300px;
+	// position: absolute;
+	// top: 0;
+	// left: 0;
+	// width: 50%;
+	// height: 300px;
 }

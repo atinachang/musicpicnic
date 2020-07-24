@@ -1,0 +1,87 @@
+.swirl {
+	animation-name: swirl;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+@keyframes swirl {
+	0% {
+		transform: rotate(-540deg) scale(0);
+		transform-origin: 100% 100%;
+		opacity: 0;
+	}
+	100% {
+		transform: rotate(0) scale(1);
+		transform-origin: 100% 100%;
+		opacity: 1;
+	}
+}
+
+.swirl2 {
+	animation-name: swirlslow;
+	animation-duration: 5s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+
+@keyframes swirlslow {
+	0% {
+		transform: rotate(-540deg) scale(0);
+		transform-origin: 100% 100%;
+		opacity: 0;
+	}
+	100% {
+		transform: rotate(0) scale(1);
+		transform-origin: 100% 100%;
+		opacity: 1;
+	}
+}
+
+.roll {
+	animation-name: roll;
+	animation-duration: 3.2s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: none;
+}
+
+@keyframes roll {
+	0% {
+		transform: translateX(800px) rotate(-840deg);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.fastroll {
+	animation-name: fastroll;
+	animation-duration: 1.4s;
+	animation-timing-function: linear;
+	animation-delay: 0s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+
+@keyframes fastroll {
+	0% {
+		transform: translateX(500px) rotate(-540deg);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0) rotate(0deg);
+		opacity: 1;
+	}
+}

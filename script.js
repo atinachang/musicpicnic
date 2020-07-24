@@ -54,46 +54,46 @@
 // }
 // }
 
-function randomFromTo(from, to) {
-	return Math.floor(Math.random() * (to - from + 1) + from);
-}
+// function randomFromTo(from, to) {
+// 	return Math.floor(Math.random() * (to - from + 1) + from);
+// }
 
-function moveRandom(e) {
+// function moveRandom(e) {
 
-	/* get container position and size
-	 * -- access method : cPos.top and cPos.left */
-	const cPos = $('#container').offset();
-	const cHeight = $('#container').height();
-	const cWidth = $('#container').width();
+// 	/* get container position and size
+// 	 * -- access method : cPos.top and cPos.left */
+// 	const cPos = $('#container').offset();
+// 	const cHeight = $('#container').height();
+// 	const cWidth = $('#container').width();
 
-	// get box padding (assume all padding have same value)
-	const pad = parseInt($('#container').css('padding-top').replace('px', ''));
-	// const pad = parseInt($('#container').css('padding','20px'));
+// 	// get box padding (assume all padding have same value)
+// 	const pad = parseInt($('#container').css('padding-top').replace('px', ''));
+// 	// const pad = parseInt($('#container').css('padding','20px'));
 
-	// get movable box size
-	const bHeight = e.height();
-	const bWidth = e.width();
+// 	// get movable box size
+// 	const bHeight = e.height();
+// 	const bWidth = e.width();
 
-	// set maximum position
-	maxY = cPos.top + cHeight - bHeight - pad;
-	maxX = cPos.left + cWidth - bWidth - pad;
+// 	// set maximum position
+// 	maxY = cPos.top + cHeight - bHeight - pad;
+// 	maxX = cPos.left + cWidth - bWidth - pad;
 
-	// set minimum position
-	minY = cPos.top + pad;
-	minX = cPos.left + pad;
+// 	// set minimum position
+// 	minY = cPos.top + pad;
+// 	minX = cPos.left + pad;
 
-	// set new position			
-	newY = randomFromTo(minY, maxY);
-	newX = randomFromTo(minX, maxX);
-	e.animate({
-		top: newY,
-		left: newX
-	}, 1500);
-}
+// 	// set new position			
+// 	newY = randomFromTo(minY, maxY);
+// 	newX = randomFromTo(minX, maxX);
+// 	e.animate({
+// 		top: newY,
+// 		left: newX
+// 	}, 1500);
+// }
 
-$('.move').each(function () {
-	moveRandom($(this));
-});
+// $('.move').each(function () {
+// 	moveRandom($(this));
+// });
 
 
 // const classes = ["move"];
