@@ -1,45 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Music Picnic</title>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Music Picnic</title>
 
-	<!-- animate on scroll library -->
-	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- animate on scroll library -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-	<!-- font awesome -->
-	<script src="https://kit.fontawesome.com/73fc7bf8da.js" crossorigin="anonymous"></script>
+		<!-- font awesome -->
+		<script
+			src="https://kit.fontawesome.com/73fc7bf8da.js"
+			crossorigin="anonymous"
+		></script>
 
-	<!-- style sheet -->
-	<link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-	<header>
-		<div class="nav" data-aos="fade-down" data-aos-easing="linear"
-     data-aos-duration="1500">
-			<i class="moon"></i>
-			<i class="star"></i>
-			<i class="fas fa-sun"></i>
-			<!-- <div class="stl-sol-base">
-				<div class="stl-sol-corpo">
-					<div class="stl-sol-raio-cima"></div>
-					<div class="stl-sol-raio-esquerda"></div>
-					<div class="stl-sol-raio-direita"></div>
-					<div class="stl-sol-raio-baixo"></div>
-					<div class="stl-sol-raio-dg-1"></div>
-					<div class="stl-sol-raio-dg-2"></div>
-					<div class="stl-sol-raio-dg-3"></div>
-					<div class="stl-sol-raio-dg-4"></div>
-					<div class="stl-sol-corpo-circulo"></div>
-				</div>
-			</div> -->
+		<!-- matter library -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+		<!-- style sheet -->
+		<link rel="stylesheet" href="./styles/style.css" />
+	</head>
+	<body>
+		<!-- <header>
+			<div class="wrapper">
+			<div
+				class="nav"
+				data-aos="fade-down"
+				data-aos-easing="linear"
+				data-aos-duration="1500"
+			>
+				<i class="moon"></i>
+				<i class="star"></i>
+				<i class="fas fa-sun"></i>
+			</div>
 		</div>
-	</header>
-	
-	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-	<script>
-		  AOS.init();
-	</script>
-</body>
+		</header> -->
+
+		<section>
+			<div class="wrapper assets">
+				<div class="asset row-one">
+					<div
+						class="moon"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1500"
+					>
+						<img src="./assets/toplayer_assets/moon.png" alt="" />
+					</div>
+					<div
+						class="star"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="1000"
+					>
+						<img src="./assets/toplayer_assets/star.png" alt="" />
+					</div>
+					<div
+						class="sun"
+						data-aos="fade-down"
+						data-aos-easing="linear"
+						data-aos-duration="2000"
+					>
+						<img src="./assets/toplayer_assets/sun.png" alt="" />
+					</div>
+				</div>
+
+				<!-- <div class="video-frame">
+					<iframe
+						width="300"
+						height="200"
+						src="https://www.youtube.com/embed/K-FQ7x9xWNQ?wmode=opaque?autoplay=1"
+						controls="0"
+						frameborder="0"
+						allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					>
+					</iframe>
+				</div> -->
+
+				<!-- <div class="youtube-container">
+					<div class="player" id="player-0pop"></div>
+					<div class="splash-image">
+						<img src="/assets/toplayer_assets/sheet_transparent.png" />
+					</div>
+				</div> -->
+
+				<div id="container">
+					<div class="asset row-two">
+						<div class="smallchair">
+							<img src="./assets/toplayer_assets/chair1.png" alt="" />
+						</div>
+						<div
+							class="piano"
+							data-aos="zoom-out-right"
+							data-aos-easing="linear"
+							data-aos-duration="1000"
+						>
+							<img src="/assets/toplayer_assets/piano.png" alt="piano" />
+						</div>
+
+						<div class="bigchair move">
+							<img src="./assets/toplayer_assets/chair2.png" alt="" />
+						</div>
+
+						<div class="cello move">
+							<img src="./assets/toplayer_assets/cello.png" alt="" />
+						</div>
+					</div>
+
+					<div class="asset row-three">
+						<div class="glass move">
+							<img src="./assets/toplayer_assets/glass.png" alt="" />
+						</div>
+						<div class="glass2 move">
+							<img src="./assets/toplayer_assets/glass2.png" alt="" />
+						</div>
+						<div class="violin move">
+							<img src="./assets/toplayer_assets/violin.png" alt="" />
+						</div>
+						<div class="lamp">
+							<img src="./assets/toplayer_assets/lamp.png" alt="" />
+						</div>
+					</div>
+
+					<div class="asset row-four">
+						<div class="blanket">
+							<img
+								src="./assets/toplayer_assets/picnicblanket.png"
+								alt=""
+							/>
+						</div>
+						<div class="bottle move">
+							<img src="./assets/toplayer_assets/bottle.png" alt="" />
+						</div>
+						<div class="umbrella move">
+							<img src="./assets/toplayer_assets/umbrella.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<!-- <script src="https://s3.amazonaws.com/assets.offerpop.com/add_ons/youtube-image/youtube-embed.min.js"></script> -->
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script src="script.js"></script>
+	</body>
 </html>

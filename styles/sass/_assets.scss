@@ -1,0 +1,62 @@
+.assets {
+	display: flex;
+	flex-direction: column;
+	// flex-wrap: wrap;
+	// display: grid;
+	// grid-template: repeat(5, 1fr) / repeat(3, 1fr);
+	// grid-template-rows: repeat(4);
+}
+
+.asset {
+	// border: 1px solid black;
+	display: flex;
+	// flex-wrap: wrap;
+	width: 100%;
+	position: relative;
+}
+
+img {
+	// object-fit: cover;
+	width: 50%;
+}
+
+.move {
+	position: absolute;
+}
+
+.video-frame {
+	// position: relative;
+	// // // padding-top: 25px;
+	// // // padding-bottom: 67.5%;
+	// // top: 0;
+	// // left: 0;
+	// // height: 100%;
+	// width: 50%;
+	// background: url(../assets/toplayer_assets/sheet_transparent.png) center
+	// 	center no-repeat;
+	// background-size: contain;
+	// z-index: 100000;
+
+	// img {
+	// 	width: 50%;
+	// }
+}
+iframe {
+	// box-sizing: border-box;
+	// padding: 11.9% 15.5% 14.8%;
+	// position: absolute;
+	// top: 0;
+	// left: 0;
+	// width: 300px;
+	// height: 50%;
+	// z-index: -100000;
+	// display: none;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 300px;
+}
