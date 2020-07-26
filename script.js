@@ -1,80 +1,4 @@
-const assets = [
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt:`bottle`,
-	// 	link: ``,
-	// },
-	// {
-	// 	image: './assets/toplayer_assets/bread.png',
-	// 	alt: `bread`,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// }, 
-	// {
-	// 	image: './assets/toplayer_assets/bottle.png',
-	// 	alt: ``,
-	// 	link: ``,
-	// },
-];
-// console.log(assets[image])
-
-
-
-assets.init= () => {
+init= () => {
 
 	let min_x = 0;
 	let max_x = window.innerWidth;
@@ -118,42 +42,10 @@ assets.init= () => {
 		return false;
 	}
 
-//function that gives random top value
-// const top = Math.round(Math.random() * window.innerHeight);
-// console.log(top)
-
-
-// //function that gives random left value
-// const left = Math.round(Math.random() * window.innerWidth);
-// console.log(left)
-	// $(".asset").each(function () {
-		
-	// 	const randomtop = Math.floor(Math.random() * ($(window).height() - $(this).height() - 20)),
-	// 	randomleft = Math.floor(Math.random() * ($(window).width() - $(this).width() - 20));
-	// 	// console.log(this)
-	// 	$(this).css({
-	// 		"top": randomtop,
-	// 		"left": randomleft
-	// 	})
-
-
-// assets.forEach(dessin => {
-	// $('.container').append(`
-	// <li class="dessiner ${dessin.alt}" tabindex="0">
-	// <img src="${dessin.image}" alt="" />
-	// </li>
-	// `);
-	// $('.dessiner').css({
-	// 	'top': top,
-	// 	'left': left
-	// }
-	// )
-// })
-	
 }
 $(function() {
 
-	assets.init();
+	init();
 	AOS.init();
 	
 });
