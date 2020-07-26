@@ -317,7 +317,7 @@ h1 {
 }
 
 a {
-  font-size: 16px;
+  font-size: 20px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-decoration: none;
@@ -333,11 +333,11 @@ a p {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  z-index: 1000;
 }
 
 a:hover p {
   opacity: 1;
+  z-index: 1000;
 }
 
 li {
@@ -410,10 +410,10 @@ header {
 a img:hover {
   -webkit-animation-name: wobble-hor-top;
           animation-name: wobble-hor-top;
-  -webkit-animation-duration: 1.2s;
-          animation-duration: 1.2s;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   -webkit-animation-iteration-count: 2;
@@ -761,8 +761,4 @@ a img:hover {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   position: relative;
-}
-
-.dessiner {
-  border: 1px solid black;
 }

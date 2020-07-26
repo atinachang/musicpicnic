@@ -1,7 +1,7 @@
 init= () => {
 
 	let min_x = 0;
-	let max_x = window.innerWidth;
+	let max_x = 1000;
 	let min_y = 0;
 	let max_y = window.innerHeight;
 	let filled_areas = new Array();
@@ -47,5 +47,19 @@ $(function() {
 
 	init();
 	AOS.init();
-	
+
+
+	// $(window).scroll(function () {
+	// 	$('.asset').each(function () {
+	// 		let imagePos = $(this).offset().top;
+	// 		let imageHeight = $(this).height();
+	// 		let topOfWindow = $(window).scrollTop();
+
+	// 		if (imagePos < topOfWindow + imageHeight && imagePos + imageHeight > topOfWindow) {
+	// 			$(this).addClass("swirl");
+	// 		} else {
+	// 			$(this).removeClass("swirl");
+	// 		}
+	// 	});
+	// });
 });
