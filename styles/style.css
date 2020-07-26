@@ -742,6 +742,7 @@ a img:hover {
           justify-content: space-evenly;
   width: 200px;
   position: absolute;
+  padding: 20px;
 }
 
 .row-one {
