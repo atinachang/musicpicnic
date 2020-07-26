@@ -1,3 +1,65 @@
+header {
+	animation-name: scale-up-center;
+	animation-duration: 2.2s;
+	animation-timing-function: linear;
+	animation-delay: 3s;
+	animation-iteration-count: 1;
+	animation-direction: normal;
+	animation-fill-mode: both;
+	opacity: 0;
+}
+
+@keyframes scale-up-center {
+	0% {
+		transform: scale(0.2);
+		opacity: 0;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+a {
+	img {
+		&:hover {
+			animation-name: wobble-hor-top;
+			animation-duration: 1.2s;
+			animation-timing-function: linear;
+			animation-delay: 0s;
+			animation-iteration-count: 2;
+			animation-direction: normal;
+			animation-fill-mode: none;
+		}
+	}
+}
+
+@keyframes wobble-hor-top {
+	0% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+}
+
 .swirl {
 	animation-name: swirl;
 	animation-duration: 3s;
@@ -78,6 +140,27 @@
 @keyframes fastroll {
 	0% {
 		transform: translateX(500px) rotate(-540deg);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
+.blanket {
+	animation-name: fasterroll;
+	animation-duration: 4s;
+	animation-timing-function: ease;
+	// animation-delay: 0.4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+
+@keyframes fasterroll {
+	0% {
+		transform: translateX(-500px) rotate(2040deg);
 		opacity: 0;
 	}
 	100% {
