@@ -270,9 +270,9 @@ html {
 }
 
 img {
-  width: 30%;
   display: block;
   margin: 0 auto;
+  height: 400px;
 }
 
 * {
@@ -323,20 +323,28 @@ a {
   text-decoration: none;
   color: black;
   text-align: center;
+  position: relative;
 }
 
 a p {
-  display: none;
+  opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  z-index: 1000;
+  border: 1px solid palevioletred;
 }
 
 a:hover p {
-  display: block;
-  z-index: 1000;
+  opacity: 1;
+}
+
+li {
+  list-style-type: none;
+  border: 1px solid turquoise;
+  width: 200px;
 }
 
 .nav {
@@ -730,42 +738,36 @@ a img:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 auto;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 200px;
+  position: absolute;
 }
 
-.leftchair {
+.row-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.row-one li {
+  width: 250px;
+}
+
+.container {
+  border: 1px solid skyblue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   position: relative;
-  top: -50px;
-  left: 0;
 }
 
-.rightchair {
-  position: absolute;
-  bottom: 80px;
-  right: 180px;
-}
-
-.rightchair img {
-  width: 15%;
-}
-
-.video-container {
-  position: relative;
-  margin: 20px;
-}
-
-.video-frame {
-  position: absolute;
-  top: -65px;
-  right: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 100000;
-}
-
-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -100000;
+.dessiner {
+  border: 1px solid black;
 }

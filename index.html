@@ -24,14 +24,12 @@
 	</head>
 	<body>
 		<header>
-			<h1>
-				Music Picnic
-			</h1>
+			<h1>Music <br />Picnic</h1>
 		</header>
 		<section>
 			<div class="wrapper assets">
-				<div class="asset row-one">
-					<div
+				<div class="row-one">
+					<li
 						class="moon"
 						data-aos="fade-down"
 						data-aos-easing="linear"
@@ -39,8 +37,8 @@
 						data-aos-delay="3000"
 					>
 						<img src="./assets/toplayer_assets/moon.png" alt="" />
-					</div>
-					<div
+					</li>
+					<li
 						class="star"
 						data-aos="fade-down"
 						data-aos-easing="linear"
@@ -48,19 +46,19 @@
 						data-aos-delay="2500"
 					>
 						<img src="./assets/toplayer_assets/star.png" alt="" />
-					</div>
-					<div
+					</li>
+					<li
 						class="sun"
 						data-aos="fade-down"
 						data-aos-easing="linear"
 						data-aos-duration="2000"
 						data-aos-delay="3500"
 					>
-						<a href="http://www.musicpicnic.com/message.html">
-							<p>contact</p>
-							<img src="./assets/toplayer_assets/sun.png" alt="" />
-						</a>
-					</div>
+						<!-- <a href="http://www.musicpicnic.com/message.html"> -->
+						<img src="./assets/toplayer_assets/sun.png" alt="" />
+						<!-- <p>contact</p> -->
+						<!-- </a> -->
+					</li>
 				</div>
 
 				<!-- <div class="youtube-container">
@@ -70,13 +68,17 @@
 					</div>
 				</div> -->
 
-				<div id="container">
-					<div class="asset row-two">
-						<div class="leftchair">
+				<ul class="container" id="container">
+					<!-- li to be appended here  -->
+
+
+					<!-- <div class="asset row-two"> -->
+						<li class="asset leftchair">
 							<img src="./assets/toplayer_assets/chair1.png" alt="" />
-						</div>
-						<div
-							class="piano"
+						</li>
+
+						<!-- <li
+							class="asset piano"
 							data-aos="zoom-out-right"
 							data-aos-easing="linear"
 							data-aos-duration="1000"
@@ -85,15 +87,19 @@
 								src="./assets/toplayer_assets/piano.png"
 								alt="piano"
 							/>
-						</div>
+						</li> -->
+						<li class="asset piano" >
+							<img src="./assets/toplayer_assets/piano.png" alt="piano" />
+						</li>
 
-						<div class="rightchair swirl">
+
+						<li class="asset rightchair swirl">
 							<img src="./assets/toplayer_assets/chair2.png" alt="" />
-						</div>
+						</li>
 
-						<div class="cello fastroll">
+						<li class="asset cello fastroll">
 							<img src="./assets/toplayer_assets/cello.png" alt="" />
-						</div>
+						</li>
 
 						<!-- <div class="video-container">
 							<div class="video-frame">
@@ -113,38 +119,43 @@
 							>
 							</iframe>
 						</div> -->
-					</div>
+					<!-- </div> -->
 
-					<div class="asset row-three">
-						<div class="glass move">
+					<!-- <div class="asset row-three"> -->
+						<li class="asset glass move">
 							<img src="./assets/toplayer_assets/glass.png" alt="" />
-						</div>
-						<div class="glass2 swirl2">
-							<img src="./assets/toplayer_assets/glass2.png" alt="" />
-						</div>
-						<div class="violin roll">
-							<img src="./assets/toplayer_assets/violin.png" alt="" />
-						</div>
-						<div class="lamp">
-							<img src="./assets/toplayer_assets/lamp.png" alt="" />
-						</div>
-					</div>
+						</li>
 
-					<div class="asset row-four">
-						<div class="blanket">
+						<li class="asset glass2 swirl2">
+							<a href="http://www.musicpicnic.com/CDpurchase.html">
+								<img src="./assets/toplayer_assets/glass2.png" alt="" />
+								<p>audio sales</p>
+							</a>
+						</li>
+
+						<li class="asset violin roll">
+							<img src="./assets/toplayer_assets/violin.png" alt="" />
+						</li>
+						<li class="asset lamp">
+							<img src="./assets/toplayer_assets/lamp.png" alt="" />
+						</li>
+					</li>
+
+					<!-- <li class="asset row-four"> -->
+						<li class="asset blanket">
 							<img
 								src="./assets/toplayer_assets/picnicblanket.png"
 								alt=""
 							/>
-						</div>
-						<div class="bottle roll">
+						</li>
+						<li class="asset bottle roll">
 							<img src="./assets/toplayer_assets/bottle.png" alt="" />
-						</div>
-						<div class="umbrella move">
+						</li>
+						<li class="asset umbrella move">
 							<img src="./assets/toplayer_assets/umbrella.png" alt="" />
-						</div>
-					</div>
-				</div>
+						</li>
+					<!-- </div> -->
+				</ul>
 			</div>
 		</section>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
