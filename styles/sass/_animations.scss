@@ -169,23 +169,23 @@ a {
 	}
 }
 
-.container {
-	animation-name: bodyroll;
-	animation-duration: 7s;
-	animation-timing-function: ease;
-	// animation-delay: 0.4s;
-	animation-iteration-count: 1;
-	animation-direction: alternate;
-	animation-fill-mode: none;
-}
+// .container {
+// 	animation-name: bodyroll;
+// 	animation-duration: 7s;
+// 	animation-timing-function: ease;
+// 	// animation-delay: 0.4s;
+// 	animation-iteration-count: 1;
+// 	animation-direction: alternate;
+// 	animation-fill-mode: none;
+// }
 
-@keyframes bodyroll {
-	0% {
-		transform: translateX(-500px) rotate(2040deg);
-		opacity: 0;
-	}
-	100% {
-		transform: translateX(0) rotate(0deg);
-		opacity: 1;
-	}
-}
+// @keyframes bodyroll {
+// 	0% {
+// 		transform: translateX(-500px) rotate(2040deg);
+// 		opacity: 0;
+// 	}
+// 	100% {
+// 		transform: translateX(0) rotate(0deg);
+// 		opacity: 1;
+// 	}
+// }

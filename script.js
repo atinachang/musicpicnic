@@ -41,7 +41,9 @@ init= () => {
 		}
 		return false;
 	}
-
+	$('.button').on('click ', function (e) {
+			location.reload();
+	});
 }
 $(function() {
 
