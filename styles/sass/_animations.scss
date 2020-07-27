@@ -177,6 +177,27 @@ img {
 	}
 }
 
+.lamp {
+	animation-name: slowroll;
+	animation-duration: 15s;
+	animation-timing-function: ease;
+	// animation-delay: 0.4s;
+	animation-iteration-count: 1;
+	animation-direction: alternate;
+	animation-fill-mode: none;
+}
+
+@keyframes slowroll {
+	0% {
+		transform: translateX(-500px) rotate(2040deg);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0) rotate(0deg);
+		opacity: 1;
+	}
+}
+
 // .assets {
 // 	animation-name: bodyroll;
 // 	animation-duration: 5s;
