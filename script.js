@@ -44,6 +44,29 @@ init= () => {
 	$('.button').on('click ', function (e) {
 			location.reload();
 	});
+
+	// let text = document.querySelectorAll(".asset");
+	// let btn = document.querySelector("button");
+
+	// text = Array.from(text)
+
+	// text.forEach(function (current, index) {
+	// 	current.addEventListener('animationend', function () {
+	// 		let next = text[index + 1]
+
+	// 		current.style.animationName = ''
+
+	// 		next.style.animationName = 'roll'
+
+	// 	})
+	// })
+
+
+	// btn.addEventListener("click", function () {
+	// 	text[0].style.animationName = "ott"
+	// })
+
+
 }
 $(function() {
 

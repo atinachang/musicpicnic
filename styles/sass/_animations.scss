@@ -1,3 +1,13 @@
+// * {
+// 	transform: rotate(180deg);
+// 	transition: 6s;
+// }
+
+// * {
+// 	transform: rotate(180deg);
+// 	transition-duration: 6s;
+// }
+
 header {
 	animation-name: scale-up-center;
 	animation-duration: 2.2s;
@@ -20,17 +30,15 @@ header {
 	}
 }
 
-a {
-	img {
-		&:hover {
-			animation-name: wobble-hor-top;
-			animation-duration: 2s;
-			animation-timing-function: ease-in-out;
-			animation-delay: 0s;
-			animation-iteration-count: 2;
-			animation-direction: normal;
-			animation-fill-mode: none;
-		}
+img {
+	&:hover {
+		animation-name: wobble-hor-top;
+		animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		animation-delay: 0s;
+		animation-iteration-count: 2;
+		animation-direction: normal;
+		animation-fill-mode: none;
 	}
 }
 
@@ -169,9 +177,9 @@ a {
 	}
 }
 
-// .container {
+// .assets {
 // 	animation-name: bodyroll;
-// 	animation-duration: 7s;
+// 	animation-duration: 5s;
 // 	animation-timing-function: ease;
 // 	// animation-delay: 0.4s;
 // 	animation-iteration-count: 1;
@@ -181,7 +189,7 @@ a {
 
 // @keyframes bodyroll {
 // 	0% {
-// 		transform: translateX(-500px) rotate(2040deg);
+// 		transform: translateX(0) rotate(2040deg);
 // 		opacity: 0;
 // 	}
 // 	100% {
