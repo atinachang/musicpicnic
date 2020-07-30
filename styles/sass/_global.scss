@@ -15,11 +15,9 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
 	color: black;
-	// position: relative;
 }
 
 header {
-	// border: 1px solid	black;
 	margin: 0 auto;
 	width: 100%;
 	z-index: -1000;
@@ -32,6 +30,10 @@ header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	img {
+		width: 50%;
+	}
 }
 
 h1 {
@@ -49,37 +51,10 @@ p {
 	position: relative;
 }
 
-section {
-	// border: 1px solid blueviolet;
-	// height: 100vh;
-	// &::after {
-	// 	background-image: url("../assets/toplayer_assets/GRASS_DRAWNWEB.gif");
-	// 	content: "";
-	// 	opacity: 0.5;
-	// 	position: absolute;
-	// 	bottom: 0;
-	// 	left: 0;
-	// 	// background-position: bottom center;
-	// 	background-repeat: no-repeat;
-	// 	// filter: opacity(45%);
-	// 	z-index: -1000000;
-	// 	background-attachment: fixed;
-	// }
-}
-
 .container {
-	// background-image: url(../assets/toplayer_assets/GRASS_DRAWNWEB.gif);
-
-	// background-size: 20vw;
-	// background-repeat: repeat-x;
-	// position: absolute;
-	// bottom: 0;
-	// left: 0;
-	// z-index: -100000;
-	// opacity: 45%;
+	margin-top: 100px;
 	height: 150vh;
-	// background-attachment: fixed;
-	border: 1px solid orangered;
+	// border: 1px solid orangered;
 	position: relative;
 }
 
@@ -99,9 +74,6 @@ p {
 
 li {
 	list-style-type: none;
-	// border: 1px solid turquoise;
-	width: 200px;
-	// height: 300px;
 }
 
 img {
@@ -112,12 +84,10 @@ img {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-	// border: 1px solid black;
 }
 
 .wrapper {
 	max-width: 1200px;
 	width: 80%;
 	margin: 0 auto;
-	border: 1px solid slateblue;
 }

@@ -21,25 +21,27 @@
 	padding: 20px;
 }
 
+.top-asset {
+	margin-bottom: 100px;
+	border: 1px solid palevioletred;
+}
+
 .asset,
 .top-asset {
-	border: 1px solid slateblue;
-
-	// a {
-	// 	position: relative;
-
-	p {
+	a,
+	.hover-text {
 		display: none;
-		// margin: 0 auto;
+		padding: 20px 0;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 100000000;
 	}
 
 	&:hover {
-		p {
+		a {
 			display: block;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%, -50%);
 		}
 	}
 }
@@ -47,14 +49,11 @@
 .row-one {
 	display: flex;
 	justify-content: space-evenly;
-	// height: 60vh;
 }
 
 .star {
-	a {
-		img {
-			width: 100%;
-		}
+	img {
+		// vertical-align: top;
 	}
 }
 
