@@ -1,14 +1,16 @@
 body {
 	// background-color: transparent;
+	// background-image: rgba(255, 255, 255, 0.3)
+	// 	url(../assets/toplayer_assets/layout_landing_whiteBG.gif);
+	// opacity: 0.5;
+	// background-color: rgba($color: #ffffff, $alpha: 0.5);
+	// background-repeat: no-repeat;
+	// background-size: cover;
+	// background-position: center;
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
-	// width: 100vh;
 	color: black;
-
-	position: relative;
-
-	// margin: 0 auto;
-	// z-index: 0;
+	// position: relative;
 }
 
 header {
@@ -61,13 +63,19 @@ section {
 }
 
 .container {
-	background-image: url(../assets/toplayer_assets/GRASS_DRAWNWEB.gif);
+	// background-image: url(../assets/toplayer_assets/GRASS_DRAWNWEB.gif);
+	// background-position: bottom;
+	// background-size: 20vw;
+	// background-repeat: repeat-x;
 	// position: absolute;
 	// bottom: 0;
 	// left: 0;
-	z-index: -100000;
-	opacity: 45%;
-	background-attachment: fixed;
+	// z-index: -100000;
+	// opacity: 45%;
+	height: 150vh;
+	// background-attachment: fixed;
+	border: 1px solid orangered;
+	position: relative;
 }
 
 p {
@@ -91,6 +99,10 @@ li {
 	// height: 300px;
 }
 
+img {
+	z-index: 1000;
+}
+
 .nav {
 	display: flex;
 	justify-content: space-between;
@@ -102,4 +114,5 @@ li {
 	max-width: 1200px;
 	width: 80%;
 	margin: 0 auto;
+	border: 1px solid slateblue;
 }

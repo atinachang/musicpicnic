@@ -9,15 +9,15 @@
 	// flex-wrap: wrap;
 	// display: flex;
 	// justify-content: space-evenly;
-	overflow: hidden;
-	background-size: contain;
+	// overflow: hidden;
+	// background-size: contain;
 	// height: 30vh;
 	// width: 100%;
 	// position: relative;
 	// margin: 0 auto;
 	width: 200px;
 	// object-fit: contain;
-	position: relative;
+	position: absolute;
 	padding: 20px;
 }
 
@@ -47,14 +47,22 @@
 .row-one {
 	display: flex;
 	justify-content: space-evenly;
-	height: 60vh;
+	// height: 60vh;
+}
+
+.star {
+	a {
+		img {
+			width: 100%;
+		}
+	}
 }
 
 .container {
 	// border: 1px solid skyblue;
 	display: flex;
 	flex-wrap: wrap;
-	position: relative;
+	// position: relative;
 	// background-color: transparent;
 }
 
