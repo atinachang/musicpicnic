@@ -281,6 +281,10 @@ img {
 }
 
 body {
+  background-image: url(../assets/toplayer_assets/layout_landing_whiteBG.gif);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: black;

@@ -5,7 +5,7 @@ init= () => {
 	$('.asset').each(function (index) {
 		$(this).css({
 			left: ((Math.random() * $('.container').width())),
-			top: ((Math.random() * $('.container').height()))
+			bottom: ((Math.random() * $('.container').height()))
 		});
 	});
 
