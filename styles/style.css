@@ -284,7 +284,8 @@ img {
 body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
-  color: black;
+  color: white;
+  background-color: black;
 }
 
 .bg {
