@@ -65,7 +65,7 @@ p {
 }
 
 .container {
-	margin-top: 100px;
+	margin-top: 200px;
 	height: 150vh;
 	// border: 1px solid orangered;
 	position: relative;
@@ -91,6 +91,12 @@ li {
 
 img {
 	z-index: 1000;
+}
+
+video {
+	// width: 215px;
+	// height: 300px;
+	// margin: 0 auto;
 }
 
 .nav {

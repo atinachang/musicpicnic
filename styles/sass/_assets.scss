@@ -21,9 +21,29 @@
 	padding: 20px;
 }
 
-.top-asset {
-	// margin-bottom: 100px;
-	// border: 1px solid palevioletred;
+.video-container {
+	display: flex;
+	border: 2px solid orchid;
+	position: relative;
+	width: 300px;
+
+	img {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+		margin: inherit;
+	}
+
+	video {
+		width: 215px;
+		height: 500px;
+		margin: 0 auto;
+		transform: skewY(20deg);
+		position: relative;
+		top: -60px;
+	}
 }
 
 .asset,
@@ -49,58 +69,20 @@
 .row-one {
 	display: flex;
 	justify-content: space-evenly;
-	margin-bottom: 100px;
+	margin-bottom: 200px;
 }
 
-.star {
+.moon,
+.sun {
 	img {
-		// vertical-align: top;
+		width: 50%;
 	}
 }
 
 .container {
-	// border: 1px solid skyblue;
 	display: flex;
 	flex-wrap: wrap;
-	// position: relative;
-	// background-color: transparent;
 }
-
-// row two
-// position: relative;
-// .leftchair {
-// 	position: relative;
-// 	top: -50px;
-// 	left: 0;
-// }
-
-// .rightchair {
-// 	position: relative;
-// 	bottom: 0;
-// 	right: -110px;
-
-// 	img {
-// 		// width: 15%;
-// 	}
-// }
-
-// .piano {
-// 	position: relative;
-// 	top: 0;
-// 	left: -180px;
-// }
-
-// .cello {
-// 	position: relative;
-// 	top: -100px;
-// 	left: 0;
-// }
-
-// .video-container {
-// 	// border: 1px solid springgreen;
-// 	position: relative;
-// 	margin: 20px;
-// }
 
 // .video-frame,
 // iframe {

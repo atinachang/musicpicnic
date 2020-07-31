@@ -342,7 +342,7 @@ p {
 }
 
 .container {
-  margin-top: 100px;
+  margin-top: 200px;
   height: 150vh;
   position: relative;
 }
@@ -789,6 +789,34 @@ header {
   padding: 20px;
 }
 
+.video-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid orchid;
+  position: relative;
+  width: 300px;
+}
+
+.video-container img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  margin: inherit;
+}
+
+.video-container video {
+  width: 215px;
+  height: 500px;
+  margin: 0 auto;
+  -webkit-transform: skewY(20deg);
+          transform: skewY(20deg);
+  position: relative;
+  top: -60px;
+}
+
 .asset a,
 .asset .hover-text,
 .top-asset a,
@@ -815,7 +843,12 @@ header {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+}
+
+.moon img,
+.sun img {
+  width: 50%;
 }
 
 .container {
