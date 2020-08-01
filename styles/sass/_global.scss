@@ -2,13 +2,20 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
 	color: white;
-	background-color: black;
-	// color: black;
+	// background-color: black;
+	background: rgb(203, 233, 255);
+	background: linear-gradient(
+		180deg,
+		rgba(203, 233, 255, 1) 0%,
+		rgba(68, 186, 142, 1) 58%,
+		rgba(21, 152, 40, 1) 100%
+	);
+	z-index: -1000000;
 }
 .bg {
 	opacity: 0.7;
 	position: absolute;
-	top: 0;
+	top: 50%;
 	left: 0;
 	bottom: 0;
 	right: 0;
@@ -64,4 +71,14 @@ li {
 	max-width: 1200px;
 	width: 80%;
 	margin: 0 auto;
+}
+
+video {
+	width: 200px;
+	z-index: -100;
+}
+
+.grass {
+	// background-image: url(../assets/toplayer_assets/layout_landing_noBG_trimmed.gif);
+	// height: 50vh;
 }

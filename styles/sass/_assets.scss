@@ -25,8 +25,8 @@
 	}
 
 	&:hover {
-		background-color: rgba(255, 255, 255, 0.7);
-		border-radius: 50%;
+		// background-color: rgba(255, 255, 255, 0.7);
+		// border-radius: 50%;
 		// z-index: -100;
 		// box-shadow: inset 0px 0px 300px 36px rgba(0, 0, 0, 1);
 		a {
@@ -57,9 +57,9 @@
 	}
 
 	video {
-		position: absolute;
-		opacity: 0.5;
-		z-index: -100000;
+		// position: absolute;
+		// opacity: 0.5;
+		// z-index: -100000;
 	}
 }
 
@@ -70,7 +70,14 @@
 	}
 }
 
-.container {
+.container,
+.grass {
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.video {
+	a {
+		color: white;
+	}
 }
