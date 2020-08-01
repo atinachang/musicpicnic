@@ -270,7 +270,7 @@ html {
 }
 
 img {
-  width: 70%;
+  width: 50%;
   display: block;
   margin: 0 auto;
   opacity: 1;
@@ -288,16 +288,7 @@ body {
   background: #cbe9ff;
   background: -webkit-gradient(linear, left top, left bottom, from(#cbe9ff), color-stop(58%, #44ba8e), to(#159828));
   background: linear-gradient(180deg, #cbe9ff 0%, #44ba8e 58%, #159828 100%);
-}
-
-.bg {
-  opacity: 0.7;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: -100000;
+  z-index: -1000000;
 }
 
 header {
@@ -348,6 +339,7 @@ p {
 .container {
   margin-top: 200px;
   height: 150vh;
+  border: 1px solid orangered;
   position: relative;
 }
 
@@ -363,6 +355,23 @@ li {
 
 video {
   width: 200px;
+  z-index: -100;
+}
+
+.bottom {
+  position: relative;
+}
+
+.name img {
+  width: 20%;
+}
+
+.grass {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1000;
 }
 
 header {
@@ -829,21 +838,31 @@ header {
   position: absolute;
 }
 
-.row-one video {
-  position: absolute;
-  opacity: 0.5;
-  z-index: -100000;
-}
-
 .moon img,
 .sun img {
   width: 50%;
 }
 
-.container {
+.container,
+.grass {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.bg {
+  position: relative;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -100000;
+}
+
+.bg img {
+  opacity: 0.7;
+  width: 80%;
 }

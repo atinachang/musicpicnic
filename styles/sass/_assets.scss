@@ -76,8 +76,22 @@
 	flex-wrap: wrap;
 }
 
-.video {
-	a {
-		color: white;
+.bg {
+	position: relative;
+	position: absolute;
+	top: 20%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -100000;
+	img {
+		opacity: 0.7;
+		width: 80%;
 	}
 }
+
+// .video {
+// 	a {
+// 		color: white;
+// 	}
+// }

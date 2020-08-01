@@ -12,15 +12,7 @@ body {
 	);
 	z-index: -1000000;
 }
-.bg {
-	opacity: 0.7;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	bottom: 0;
-	right: 0;
-	z-index: -100000;
-}
+
 header {
 	margin: 0 auto;
 	width: 100%;
@@ -59,7 +51,7 @@ p {
 .container {
 	margin-top: 200px;
 	height: 150vh;
-	// border: 1px solid orangered;
+	border: 1px solid orangered;
 	position: relative;
 }
 
@@ -78,7 +70,21 @@ video {
 	z-index: -100;
 }
 
+.bottom {
+	position: relative;
+}
+
+.name {
+	img {
+		width: 20%;
+	}
+}
 .grass {
 	// background-image: url(../assets/toplayer_assets/layout_landing_noBG_trimmed.gif);
 	// height: 50vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: -1000;
 }
