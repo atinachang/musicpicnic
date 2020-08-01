@@ -301,7 +301,7 @@ body {
 header {
   margin: 0 auto;
   width: 100%;
-  z-index: -1000;
+  z-index: -100;
   position: absolute;
   top: 0;
   left: 0;
@@ -321,6 +321,7 @@ header {
 
 header img {
   width: 50%;
+  margin: 0 auto;
 }
 
 h1 {
@@ -350,21 +351,6 @@ p {
 
 li {
   list-style-type: none;
-}
-
-img {
-  z-index: 1000;
-}
-
-.nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-line-pack: center;
-      align-content: center;
 }
 
 .wrapper {
@@ -804,9 +790,19 @@ header {
   z-index: 100000000;
 }
 
+.asset:hover,
+.top-asset:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
 .asset:hover a,
 .top-asset:hover a {
   display: block;
+}
+
+.asset img,
+.top-asset img {
+  z-index: 10000;
 }
 
 .row-one {
@@ -835,6 +831,7 @@ header {
 .row-one video {
   position: absolute;
   opacity: 0.5;
+  z-index: -100000;
 }
 
 .moon img,
