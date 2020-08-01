@@ -26,6 +26,8 @@
 
 	&:hover {
 		background-color: rgba(255, 255, 255, 0.7);
+		border-radius: 50%;
+		// z-index: -100;
 		// box-shadow: inset 0px 0px 300px 36px rgba(0, 0, 0, 1);
 		a {
 			display: block;
@@ -39,18 +41,11 @@
 
 .row-one {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	margin-bottom: 200px;
 
 	.video-container {
 		position: relative;
-		// box-shadow: inset 0px 0px 300px 61px rgba(0, 0, 0, 1);
-		// background: linear-gradient(
-		// 	90deg,
-		// 	rgba(2, 0, 36, 1) 0%,
-		// 	rgba(9, 9, 121, 1) 50%,
-		// 	rgba(0, 0, 0, 1) 100%
-		// );
 		img {
 			width: 100%;
 			top: 0;
