@@ -285,7 +285,9 @@ body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
   color: white;
-  background-color: black;
+  background: #cbe9ff;
+  background: -webkit-gradient(linear, left top, left bottom, from(#cbe9ff), color-stop(58%, #44ba8e), to(#159828));
+  background: linear-gradient(180deg, #cbe9ff 0%, #44ba8e 58%, #159828 100%);
 }
 
 .bg {
@@ -357,6 +359,10 @@ li {
   max-width: 1200px;
   width: 80%;
   margin: 0 auto;
+}
+
+video {
+  width: 200px;
 }
 
 header {
@@ -788,12 +794,6 @@ header {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100000000;
-}
-
-.asset:hover,
-.top-asset:hover {
-  background-color: rgba(255, 255, 255, 0.7);
-  border-radius: 50%;
 }
 
 .asset:hover a,
