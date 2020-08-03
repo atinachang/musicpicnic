@@ -360,6 +360,12 @@ video {
 
 .bottom {
   position: relative;
+  padding-bottom: 300px;
+}
+
+.name {
+  width: 20%;
+  margin: 0 auto;
 }
 
 .grass {

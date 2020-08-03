@@ -81,15 +81,14 @@ video {
 .bottom {
 	position: relative;
 	// border: 1px solid black;
-	// padding-bottom: 100px;
+	padding-bottom: 300px;
 }
 
 .name {
 	// display: flex;
 	// justify-content: space-between;
-	img {
-		// width: 20%;
-	}
+	width: 20%;
+	margin: 0 auto;
 }
 
 .grass {
