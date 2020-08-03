@@ -2,14 +2,22 @@ body {
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
 	color: white;
+	background-image: url(../assets/toplayer_assets/e4fba15822679b749949ad0ea811e26e--iphone-backgrounds-iphone-wallpaper.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	// background-attachment: fixed;
 	// background-color: black;
-	background: rgb(203, 233, 255);
-	background: linear-gradient(
-		180deg,
-		rgba(203, 233, 255, 1) 0%,
-		rgba(68, 186, 142, 1) 58%,
-		rgba(21, 152, 40, 1) 100%
-	);
+	// background: rgb(203, 233, 255);
+	// background-image: url(../assets/AdobeStock_294301937-1024x576.jpeg);
+
+	// background-repeat: no-repeat;
+	// background: rgb(215, 236, 250);
+	// background: linear-gradient(
+	// 	180deg,
+	// 	rgba(215, 236, 250, 1) 50%,
+	// 	rgba(23, 153, 23, 1) 100%
+	// );
 	z-index: -1000000;
 }
 
@@ -51,7 +59,7 @@ p {
 .container {
 	margin-top: 200px;
 	height: 150vh;
-	border: 1px solid orangered;
+	// border: 1px solid orangered;
 	position: relative;
 }
 
@@ -72,13 +80,18 @@ video {
 
 .bottom {
 	position: relative;
+	// border: 1px solid black;
+	// padding-bottom: 100px;
 }
 
 .name {
+	// display: flex;
+	// justify-content: space-between;
 	img {
-		width: 20%;
+		// width: 20%;
 	}
 }
+
 .grass {
 	// background-image: url(../assets/toplayer_assets/layout_landing_noBG_trimmed.gif);
 	// height: 50vh;
@@ -86,5 +99,6 @@ video {
 	top: 0;
 	left: 0;
 	right: 0;
+	bottom: 0;
 	z-index: -1000;
 }
