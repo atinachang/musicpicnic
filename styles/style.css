@@ -856,3 +856,7 @@ header {
   z-index: -100000;
   opacity: 0.5;
 }
+
+.video a {
+  color: white;
+}

@@ -24,6 +24,8 @@ init= () => {
 		} while (check_overlap(area));
 
 		filled_areas.push(area);
+		// console.log(area)
+		
 
 		$(this).css({ right: rand_x, bottom: rand_y });
 	});
