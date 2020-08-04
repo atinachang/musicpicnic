@@ -360,8 +360,12 @@ video {
 }
 
 .name {
-  width: 20%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 500px;
+  position: relative;
 }
 
 .grass {
@@ -371,6 +375,13 @@ video {
   right: 0;
   bottom: 0;
   z-index: -1000;
+}
+
+.switch {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-weight: normal;
 }
 
 header {
@@ -859,4 +870,27 @@ header {
 
 .video a {
   color: white;
+}
+
+.switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.outside {
+  background-image: url(../assets/toplayer_assets/e4fba15822679b749949ad0ea811e26e--iphone-backgrounds-iphone-wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.outside a,
+.outside p {
+  color: black;
+}
+
+.outside .bottom {
+  padding-bottom: 300px;
+  bottom: 0;
 }

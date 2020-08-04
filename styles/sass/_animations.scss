@@ -150,7 +150,6 @@ header {
 	animation-name: fasterroll;
 	animation-duration: 4s;
 	animation-timing-function: ease;
-	// animation-delay: 0.4s;
 	animation-iteration-count: 1;
 	animation-direction: alternate;
 	animation-fill-mode: none;
@@ -171,7 +170,6 @@ header {
 	animation-name: slowroll;
 	animation-duration: 15s;
 	animation-timing-function: ease;
-	// animation-delay: 0.4s;
 	animation-iteration-count: 1;
 	animation-direction: alternate;
 	animation-fill-mode: none;
@@ -187,24 +185,3 @@ header {
 		opacity: 1;
 	}
 }
-
-// .assets {
-// 	animation-name: bodyroll;
-// 	animation-duration: 5s;
-// 	animation-timing-function: ease;
-// 	// animation-delay: 0.4s;
-// 	animation-iteration-count: 1;
-// 	animation-direction: alternate;
-// 	animation-fill-mode: none;
-// }
-
-// @keyframes bodyroll {
-// 	0% {
-// 		transform: translateX(0) rotate(2040deg);
-// 		opacity: 0;
-// 	}
-// 	100% {
-// 		transform: translateX(0) rotate(0deg);
-// 		opacity: 1;
-// 	}
-// }
