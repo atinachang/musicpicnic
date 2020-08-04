@@ -1,11 +1,12 @@
 body {
 	overflow-x: hidden;
 	font-family: "Roboto", sans-serif;
-	color: white;
-	background-image: url(../assets/toplayer_assets/e4fba15822679b749949ad0ea811e26e--iphone-backgrounds-iphone-wallpaper.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	// color: white;
+	background-color: black;
+	// background-image: url(../assets/toplayer_assets/e4fba15822679b749949ad0ea811e26e--iphone-backgrounds-iphone-wallpaper.jpg);
+	// background-position: center;
+	// background-repeat: no-repeat;
+	// background-size: cover;
 	// background-attachment: fixed;
 	// background-color: black;
 	// background: rgb(203, 233, 255);
@@ -51,7 +52,7 @@ a,
 p {
 	@include font(20);
 	text-decoration: none;
-	color: black;
+	color: white;
 	text-align: center;
 	position: relative;
 }

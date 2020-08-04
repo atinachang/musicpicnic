@@ -284,11 +284,7 @@ img {
 body {
   overflow-x: hidden;
   font-family: "Roboto", sans-serif;
-  color: white;
-  background-image: url(../assets/toplayer_assets/e4fba15822679b749949ad0ea811e26e--iphone-backgrounds-iphone-wallpaper.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: black;
   z-index: -1000000;
 }
 
@@ -332,7 +328,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-decoration: none;
-  color: black;
+  color: white;
   text-align: center;
   position: relative;
 }
@@ -801,10 +797,8 @@ header {
   display: none;
   padding: 20px 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  top: 0%;
+  right: 0%;
   z-index: 100000000;
 }
 
