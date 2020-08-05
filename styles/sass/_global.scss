@@ -62,27 +62,21 @@ video {
 }
 
 .bottom {
-	position: relative;
-	padding-bottom: 300px;
-}
-
-.name {
-	margin: 0 auto;
-	display: flex;
-	height: 500px;
-	position: relative;
-}
-
-.grass {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	z-index: -1000;
+	padding-top: 300px;
+	background-image: url(../assets/toplayer_assets/layout_landing_grassarea.gif);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	li {
+		display: flex;
+	}
+	img {
+		width: 10%;
+	}
 }
 
 .switch {
 	@include font(14);
 	font-weight: normal;
+	padding: 5px;
 }

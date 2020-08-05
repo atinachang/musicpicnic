@@ -355,26 +355,21 @@ video {
 }
 
 .bottom {
-  position: relative;
-  padding-bottom: 300px;
+  padding-top: 300px;
+  background-image: url(../assets/toplayer_assets/layout_landing_grassarea.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-.name {
-  margin: 0 auto;
+.bottom li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 500px;
-  position: relative;
 }
 
-.grass {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -1000;
+.bottom img {
+  width: 10%;
 }
 
 .switch {
@@ -382,6 +377,7 @@ video {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-weight: normal;
+  padding: 5px;
 }
 
 header {
@@ -888,9 +884,4 @@ header {
 .outside a,
 .outside p {
   color: black;
-}
-
-.outside .bottom {
-  padding-bottom: 300px;
-  bottom: 0;
 }
